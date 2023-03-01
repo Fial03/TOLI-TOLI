@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2/family=Patrick+Hand&display=swap');
+*,html,body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* ubah font seluruh layar */
+    font-family: 'Patrick Hand',cursive;
+    /* animasi scrool */
+    scroll-behavior: smooth;
+}
+
+section{
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #222;
+}
+.merah{
+    background-color: yellowgreen;
+}
+
+.biru{
+    background-color: slateblue;
+}
+
+h1{
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+.navwrapper{
+    width: 100%;
+    height: 80px;
+    background-color: crimson;
+    /* agar navigator selalu ada ketika d scrool */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.contentwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.navigation{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* kalau tidak ada height maka aligh item tidak fungsi karena ngikutin parent */
+    height: 100%; 
+}
+
+.nav{
+    /* bulatan pada nav dihilangin */
+    list-style-type: none; 
+    padding: 20px;
+    margin: 5px;
+    /* ubah ketika ke nav kurson berubah */
+    cursor: pointer;
+}
+
+.nav:hover{
+    background-color: white;
+    transition: all ease-in-out .3s;
+    border-radius: 10px;
+}
+
+.nav:hover>a{
+    color: #222;
+}
+
+.navlink{
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    /* untuk menghilangkan underscore dkk */
+    text-decoration: none;
+}
+
+.top{
+    font-size: large;
+    cursor: pointer;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: fixed;
+    border-radius: 15px;
+    bottom: 20px;
+    right: 20px;
+    width: 75px;
+    height: 75px;
+    background-color: wheat;
+}
+
