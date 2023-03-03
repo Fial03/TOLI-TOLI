@@ -4,56 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <title>Latihan HTML</title>
+    <title>TOLISTORE</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section id="home">
-
-        <div class="container">
-            <!-- Nagiator bar start -->
-            <div class="navwrapper">
-                <ul class="navigation">
-                    <li class="nav">
-                        <a href="#home" class="navlink">HOME</a>
-                    </li>
-                    <li class="nav">
-                        <a href="#about" class="navlink">ABOUT</a>
-                    </li>
-                    <li class="nav">
-                        <a href="#contact" class="navlink">CONTACT</a>
-                    </li>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="">TOLISTORE</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#aboutus">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#search">SEARCH</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="" class="tbl-biru">Sign up</a></li>
                 </ul>
             </div>
-            <div class="contentwrapper">
-                <h1>HOME</h1>
-            </div>
         </div>
-    </section>
+    </nav>
+    <div class="wrapper">
+        <section id="home">
+            <img src="https://img.freepik.com/free-vector/anxiety-concept-illustration_114360-8054.jpg?size=338&ext=jpg&ga=GA1.1.1165749322.1668824683&semt=sph"/>
+            <div class="kolom">
+                <p class="deskripsi">- ALFRI ADIWIJAYA</p>
+                <p class="deskripsi">- MAULANA FAQIH</p>
+                <p class="deskripsi">- EKA DIAN ASTUTI</p>
 
-    <section id="about">
-        <div class="container merah">
-            <div class="contentwrapper">
-                <h1>ABOUT</h1>
+
+                
+                <h3>JUALAN APA AJA</h3>
+                <h1>yang penting halal</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, fugiat.</p>
             </div>
-        </div>
-    </section>
-
-    <section id="contact">
-        <div class="container biru">
-            <div class="contentwrapper">
-                <h1>CONTACT</h1>
-            </div>
-        </div>
-    </section>
-
-    <div class="top" onclick="goToTop()">🐾</div>
-
-    <script>
-        const goToTop = () => {
-            return location.href="#home"
-        }
-    </script>
-    
+        </section>
+    </div>
 </body>
 </html>
