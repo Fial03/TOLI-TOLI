@@ -148,6 +148,7 @@ p {
   padding: 5% 0;
 }
 .hero-desc h1 {
+  font-style: normal;
   font-size: 2.5em;
   line-height: 120%;
   margin-bottom: 20px;
